@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1000px;
+}
+.Imagery{
+    border-radius: 100%;
+    width: 70px;
+    height: 60px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    gap: 40px;
+}
+.routes{
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    border: black;
+}
+.routes:hover{
+    color: rgb(25, 35, 32);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url(../assets/sea.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.main p{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+.footer{
+    background-color: black;
+    height: 120px;
+    color: aliceblue;
+}
+.footer h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .route{
+    color: rgb(248, 255, 255);
+    text-decoration: none;
+}
